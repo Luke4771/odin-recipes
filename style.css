@@ -58,6 +58,8 @@ list-style-position: inside;
 text-align: left;
 margin-left: 300px;
 margin-right: 300px;
+font-family: arial;
+margin-bottom:15px;
 }
 
 #ingredients li {
@@ -69,4 +71,22 @@ text-align: left;
 .m1 {
 display:inline;
 padding:30px;
+}
+
+.image1 {
+width: 800px;
+height: 400px;
+object-fit: contain;
+object-position: center;
+object-fit: cover;
+object-position: right top;
+}
+
+.image1.las {
+    object-position: bottom;
+}
+
+.section1 {
+    background: gray;
+    overflow:visible;
 }
