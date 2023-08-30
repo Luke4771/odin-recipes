@@ -4,7 +4,8 @@ background-color: #044776;
 color: white;
 list-style-type: none;
 text-align: center;
-}
+    /*border: 0.1px solid red; */
+  }
 
 img {
     width: 800px;
@@ -20,6 +21,7 @@ font-weight: bold;
 text-align: center;
 font-family: fantasy, copperplate; 
 }
+
 h2 {
     font-size: 35px;
     font-weight: bold;
@@ -51,9 +53,20 @@ a {
 
 #instructions li {
 font-size: 20px;
-text-align: justify;
 list-style-type:decimal;
 list-style-position: inside;
 text-align: left;
-padding-left:250px;
+margin-left: 300px;
+margin-right: 300px;
+}
+
+#ingredients li {
+margin-left: 320px;
+margin-right:300px;
+text-align: left;
+}
+
+.m1 {
+display:inline;
+padding:30px;
 }
