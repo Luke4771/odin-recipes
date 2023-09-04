@@ -19,20 +19,15 @@ h1 {
 font-size: 70px;
 font-weight: bold;
 text-align: center;
-font-family: fantasy, copperplate; 
+font-family: Arial, Helvetica, sans-serif
 }
 
 h2 {
     font-size: 35px;
     font-weight: bold;
     text-align: center;
-    font-family: fantasy, copperplate; 
+    font-family: Arial, Helvetica, sans-serif
     }
-
-
-#header {
-    padding-top: 80px;
-}
 
 ul {
     text-align: center;
@@ -44,6 +39,7 @@ ul {
 li {
     padding-top:10px ;
     font-size: 20px;
+    flex:1; 
 }
 
 a {
@@ -86,7 +82,48 @@ object-position: right top;
     object-position: bottom;
 }
 
-.section1 {
-    background: gray;
-    overflow:visible;
+.items {
+    display:flex;
+    justify-content: center;
+    padding: 20px;
+
 }
+
+.header {
+    height: 200px;
+    display: flex;
+    justify-content:center;
+    padding: 80px;
+}
+
+.recipe-grid-container {
+    display: flex;
+    justify-content: center;
+    }
+    
+    .recipe-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    }
+    
+    .recipe-grid-item-1, .recipe-grid-item-2, .recipe-grid-item-3{
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top:25%;
+    flex:1;
+    color:white;
+    font-size: 22px;
+    }
+
+    .recipe-grid-item-1 {
+        background-color: rgb(139, 185, 225);
+    }
+    .recipe-grid-item-2 {
+        background-color: rgb(206, 189, 166);
+    }
+    .recipe-grid-item-3{
+        background-color: rgb(99, 183, 183);
+    }
